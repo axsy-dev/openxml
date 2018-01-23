@@ -113,7 +113,9 @@ const JSZip = require('jszip');
     const XText = Ltxml.XText;
     const cast = Ltxml.cast;
     const castInt = Ltxml.castInt;
-
+    
+    openXml.XEnumerable = XEnumerable;
+ 
     /******************************** OpenXmlPackage ********************************/
 
     async function openFromZip(zip, pkg) {
